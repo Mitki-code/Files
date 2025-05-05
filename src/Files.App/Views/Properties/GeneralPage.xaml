@@ -40,7 +40,10 @@
 	</vm:BasePropertiesPage.Resources>
 
 	<ScrollViewer>
-		<StackPanel Padding="12" Spacing="4">
+		<StackPanel 
+			Padding="12" 
+			Spacing="4" 
+			ChildrenTransitions="{StaticResource SettingsCardsAnimations}">
 
 			<!--  Item Overview  -->
 			<Grid

@@ -8,6 +8,11 @@
 	<Application.Resources>
 		<ResourceDictionary>
 
+			<TransitionCollection x:Key="SettingsCardsAnimations">
+				<EntranceThemeTransition FromVerticalOffset="50" />
+				<RepositionThemeTransition IsStaggeringEnabled="False" />
+			</TransitionCollection>
+
 			<!--  Fix caption buttons background  -->
 			<SolidColorBrush x:Key="WindowCaptionBackground" Color="Transparent" />
 			<SolidColorBrush x:Key="WindowCaptionBackgroundDisabled" Color="Transparent" />

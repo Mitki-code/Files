@@ -85,7 +85,8 @@
 		<StackPanel
 			HorizontalAlignment="Stretch"
 			VerticalAlignment="Stretch"
-			Spacing="4">
+			Spacing="4"
+			ChildrenTransitions="{StaticResource SettingsCardsAnimations}">
 
 			<!--  Title  -->
 			<TextBlock
